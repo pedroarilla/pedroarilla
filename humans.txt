@@ -1,0 +1,12 @@
+/* TEAM */
+	The boss: Pedro Arilla
+	Contact: info [at] pedroarilla.com
+	Twitter: @pedroarilla
+	From: London, UK
+
+/* SITE */
+	Last update: 2019/02/10
+	Version: 2.2
+	Language: English
+	Doctype: HTML5 + CSS3
+	IDE: Atom, Terminal and Spotify

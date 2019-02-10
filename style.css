@@ -1,0 +1,149 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,300i,500,500i,700');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300,300i,600');
+
+/* CSS Reset */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, strong, img, ul, li, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	color: black;
+}
+section {
+	display: block;
+}
+body {
+	line-height: 1em;
+}
+ol, ul {
+	list-style: none;
+}
+
+/* General */
+html {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+body {
+	width: 760px;
+  padding: 60px 100px;
+}
+section {
+  padding-bottom: 2em;
+}
+a, a:visited, a:active {
+}
+a:hover {
+  color: pink;
+}
+img {
+	max-width:100%;
+}
+
+/* Menu */
+.menu {
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 0.85em;
+  font-weight: 300;
+  line-height: 1.5em;
+	margin-bottom: 1em;
+}
+.menu li {
+  float: left;
+	padding-right: 1.5em;
+}
+.menu li a {
+	display: block;
+}
+
+/* Presentation */
+.presentation strong {
+  font-weight: 600;
+	color: pink;
+}
+.presentation em {
+  font-style: italic;
+}
+.presentation p, h1 {
+	font-family: 'IBM Plex Serif', serif;
+  padding-bottom: 0.75em;
+	font-weight: 300;
+}
+.presentation p {
+  font-size: 1.5em;
+	line-height: 1.5em;
+}
+.presentation h1 {
+  font-size: 3em;
+	line-height: 1.25em;
+}
+
+/* Data */
+.data {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85em;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+.data h2 {
+  font-size: 1em;
+  font-weight: 600;
+  padding: 0 0 0.5em 0;
+  text-transform: uppercase;
+}
+.data strong {
+  font-weight: 500;
+}
+.data em {
+  font-style: italic;
+}
+.data ul.list {
+	list-style-type: circle;
+	padding-left: 3em;
+}
+.data ul.list li {
+	padding-left: 1em;
+}
+.button {
+	padding: 14px;
+	border: 1px solid black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+#shopping {
+	margin: 20px auto;
+	text-align: center;
+}
+#the-end {
+	margin-top: 30px;
+}
+
+/* Responsive */
+@media (max-width: 1150px) {
+	body {
+		width: 80%;
+	  padding: 40px 50px;
+	}
+	.presentation p {
+	  font-size: 1.4em;
+	}
+	.presentation h1 {
+	  font-size: 2.5em;
+	}
+}
+@media (max-width: 800px) {
+	body {
+		width: 90%;
+	  padding: 20px;
+	}
+	.presentation p {
+	  font-size: 1.25em;
+	}
+	.presentation h1 {
+	  font-size: 1.75em;
+	}
+}
