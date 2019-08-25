@@ -5,8 +5,8 @@
 	From: London, UK
 
 /* SITE */
-	Last update: 2019/02/10
-	Version: 2.2
+	Last update: 2019/08/25
+	Version: 2.3
 	Language: English
 	Doctype: HTML5 + CSS3
 	IDE: Atom, Terminal and Spotify
