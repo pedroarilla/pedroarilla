@@ -96,6 +96,9 @@ img {
 #the-end {
 	padding-top: 1em;
 }
+#publications ul li {
+	padding-bottom: 0.7em;
+}
 
 /* Responsive */
 @media (max-width: 840px) {
