@@ -5,7 +5,7 @@
 	From: London, UK
 
 /* SITE */
-	Last update: 2020/03/13
+	Last update: 2020/05/03
 	Version: 2.3
 	Language: English
 	Doctype: HTML5 + CSS3
