@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Epilogue:400,400i,700,700i');
 
 /* CSS Reset */
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, strong, img, ul, li, section {
@@ -23,25 +23,26 @@ html {
 	text-rendering: optimizeLegibility;
 }
 body {
-	width: 600px;
+	max-width: 720px;
+	margin: auto;
   padding: 50px 60px;
-	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'Epilogue', sans-serif;
 	font-size: 1.2em;
   font-weight: 400;
-	line-height: 1.5em;
-	color: #ffffff;
-	background-color: #1b1b1b;
+	line-height: 1.6em;
+	color: #e1dede;
+	background-color: #18181c;
 
 }
 a, a:focus, a:visited, a:active {
 	text-decoration: none;
 	cursor:pointer;
 	outline:none;
-	color: #ffffff;
-  box-shadow: 0 1px 0 0px #49e6ae;
+	color: #e1dede;
+  box-shadow: 0 1px 0 0px #4770fd;
 }
 a:hover {
-  color: #49e6ae;
+  color: #4770fd;
 	transition: color .3s ease;
 }
 strong {
@@ -69,7 +70,7 @@ img {
 
 /* Presentation */
 .presentation strong {
-	color: #49e6ae;
+	color: #4770fd;
 }
 .presentation p, h1 {
   margin-bottom: 1em;
@@ -82,7 +83,7 @@ img {
 .data h2 {
   font-weight: 700;
 	padding-bottom: .5em;
-	color: #49e6ae;
+	color: #4770fd;
 }
 .link-img, .link-img:focus {
 	box-shadow: none;
