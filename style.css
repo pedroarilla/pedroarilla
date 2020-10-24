@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Epilogue:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,400i,700,700i');
 
 /* CSS Reset */
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, strong, img, ul, li, section {
@@ -23,27 +23,23 @@ html {
 	text-rendering: optimizeLegibility;
 }
 body {
-	max-width: 720px;
+	max-width: 1200px;
 	margin: auto;
   padding: 50px 60px;
-	font-family: 'Epilogue', sans-serif;
-	font-size: 1.1em;
+	font-family: 'Work Sans', sans-serif;
   font-weight: 400;
-	line-height: 1.5em;
-	color: #000;
-	background-color: #fff;
-
+	color: #fff;
+	background-color: #000;
 }
 a, a:focus, a:visited, a:active {
 	text-decoration: none;
-	cursor:pointer;
 	outline:none;
-	color: #000;
+	color: #fff;
   box-shadow: 0 1px 0 0px #4770fd;
 }
 a:hover {
   color: #4770fd;
-	transition: color .3s ease;
+	transition: color .4s ease;
 }
 strong {
 	font-weight: 700;
@@ -54,60 +50,135 @@ em {
 img {
 	max-width:100%;
 }
-
-/* Menu */
-.menu {
-	margin-bottom: 4em;
+::selection {
+  color: rgba(255,255,255,.996);
+  background: rgba(71,112,253,.996);
 }
-.menu li {
+
+/* header */
+.header {
+	margin-bottom: 2.5em;
+	font-size: 1.25em;
+	line-height: 1.4em;
+}
+.header ul li {
   float: left;
 	padding-right: 1.5em;
 }
-.menu li a {
+.header ul li a {
 	display: block;
 	box-shadow: none;
 }
 
-/* Presentation */
-.presentation strong {
+/* content */
+.content {
+	font-size: 2em;
+	line-height: 1.25em;
+	min-height: calc(100vh - 8em);
+}
+.content article {
+	font-size: 0.75em;
+	line-height: 1.5em;
+	padding-bottom: 3em
+}
+.content article p {
+	margin-bottom: 0;
+}
+.content h1 {
+	padding-bottom: .5em;
+	padding-top: 1em;
+	font-weight: 700;
 	color: #4770fd;
 }
-.presentation p, h1 {
+.content h1#index {
+	padding-bottom: 1em;
+	font-weight: 400;
+	color: #fff;
+}
+.content h1#index strong {
+	color: #4770fd;
+}
+.content h2 {
+	padding-bottom: .5em;
+	padding-top: 1em;
+	font-weight: 700;
+	color: #4770fd;
+}
+.content p {
   margin-bottom: 1em;
 }
-
-/* Data */
-.data {
-	padding-bottom: 1em;
+.content p#index, .content p#index a, .content p#index a:focus, .content p#index a:visited, .content p#index a:active {
+	color: #999;
 }
-.data h2 {
-  font-weight: 700;
-	padding-bottom: .5em;
-	color: #4770fd;
+.content p#index a:hover {
+  color: #4770fd;
+	transition: color .3s ease;
+}
+.list ul li {
+	font-size: 0.75em;
+	line-height: 1.25em;
+	padding-bottom: 0.5em;
 }
 .link-img, .link-img:focus {
 	box-shadow: none;
+	width: 100%;
 }
-#images {
-	width: 760px;
+.shopping {
+	margin: 1.5em auto;
 }
-#shopping {
-	margin: 20px auto;
+.shopping .payhip-buy-button {
+	font-size: 1em !important;
+	font-family: 'Work Sans', sans-serif !important;
+	background-color: #4770fd !important;
+	color: #fff !important;
+	background-image: none !important;
+	font-weight: 700 !important;
+	border: none !important;
 }
-#the-end {
+.shopping .payhip-buy-button:hover {
+	background-color: #fff !important;
+	background-image: none !important;
+	color: #4770fd !important;
+}
+.shopping p {
+	font-size: 0.75em;
+	line-height: 1.5 em;
+}
+#portrait {
+	padding-top:1.75em;
+	max-width:700px;
+}
+
+/* footer */
+.footer {
+	font-size: 1.25em;
+	line-height: 1.4em;
+	border-top: 1px solid #222;
 	padding-top: 1em;
-}
-#publications ul li {
-	padding-bottom: 0.7em;
+	margin-top: 3em;
+	background-color: #000;
+	height: 1em;
 }
 
 /* Responsive */
-@media (max-width: 840px) {
+@media (max-width: 1200px) {
 	body {
 		width: 90%;
 	  padding: 20px;
 	}
-	#images {
-		width: 100%;
+	.content {
+		font-size: 1.8em;
+		line-height: 1.4em;
+	}
+}
+@media (max-width: 840px) {
+	.content {
+		font-size: 1.5em;
+		line-height: 1.4em;
+	}
+}
+@media (max-width: 700px) {
+	#portrait {
+		max-width:100%;
 	}
 }
