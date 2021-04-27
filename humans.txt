@@ -1,11 +1,11 @@
 /* TEAM */
 	The boss: Pedro Arilla
-	Contact: studio [at] pedroarilla.com
+	Contact: pedroarilla [at] gmail.com
 	Twitter: @pedroarilla
 
 /* SITE */
-	Last update: 2020/10/24
-	Version: 2.6
+	Last update: 2021/04/27
+	Version: 2.65
 	Language: English
 	Doctype: HTML5 + CSS3
 	IDE: Atom, Terminal and Spotify
