@@ -4,8 +4,8 @@
 	Twitter: @pedroarilla
 
 /* SITE */
-	Last update: 2021/04/27
-	Version: 2.65
+	Last update: 2021/09/27
+	Version: 2.7
 	Language: English
 	Doctype: HTML5 + CSS3
 	IDE: Atom, Terminal and Spotify
