@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* CSS Reset */
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, strong, img, ul, li, section {
@@ -23,13 +23,14 @@ html {
 	text-rendering: optimizeLegibility;
 }
 body {
-	max-width: 1200px;
-	margin: auto;
-  padding: 50px 60px;
-	font-family: 'Work Sans', sans-serif;
+	max-width: 700px;
+	margin: 90px auto;
+	font-family: 'Space Mono', monospace;
   font-weight: 400;
-	color: #fff;
-	background-color: #000;
+	font-size: 18px;
+	line-height: 26px;
+	color: #ddd;
+	background-color: #111;
 }
 a, a:focus, a:visited, a:active {
 	text-decoration: none;
@@ -57,9 +58,9 @@ img {
 
 /* header */
 .header {
-	margin-bottom: 2.5em;
-	font-size: 1.25em;
-	line-height: 1.4em;
+	margin-top: 1.5em;
+	top: 0;
+	position: fixed;
 }
 .header ul li {
   float: left;
@@ -71,35 +72,22 @@ img {
 }
 
 /* content */
-.content {
-	font-size: 2em;
-	line-height: 1.25em;
-	min-height: calc(100vh - 8em);
-}
-.content article {
-	font-size: 0.75em;
-	line-height: 1.25em;
-	padding-bottom: 3em
-}
-.content article p {
-	margin-bottom: 0.5em;
-}
 .content h1 {
-	padding-bottom: .5em;
-	padding-top: 1em;
+	padding-bottom: 1em;
 	font-weight: 700;
 	color: #4770fd;
 }
 .content h1#index {
-	padding-bottom: 1em;
 	font-weight: 400;
-	color: #fff;
+	color: #ddd;
+	font-size: 36px;
+	line-height: 46px;
 }
 .content h1#index strong {
 	color: #4770fd;
 }
 .content h2 {
-	padding-bottom: .5em;
+	padding-bottom: 1em;
 	padding-top: 1em;
 	font-weight: 700;
 	color: #4770fd;
@@ -107,92 +95,30 @@ img {
 .content p {
   margin-bottom: 1em;
 }
-.content p#index, .content p#index a, .content p#index a:focus, .content p#index a:visited, .content p#index a:active {
-	color: #999;
+.content ul#fonts li {
+	padding-bottom: 15px;
+	border-bottom: solid 2px #222;
+	margin-bottom: 15px;
 }
-.content p#index a:hover {
-  color: #4770fd;
-	transition: color .3s ease;
-}
-.list ul li {
-	font-size: 0.75em;
-	line-height: 1.25em;
-	padding-bottom: 0.5em;
-}
-.link-img, .link-img:focus {
-	box-shadow: none;
-	width: 100%;
-}
-.shopping {
-	margin: 1.5em auto;
-}
-.shopping .payhip-buy-button {
-	font-size: 1em !important;
-	font-family: 'Work Sans', sans-serif !important;
-	background-color: #4770fd !important;
-	color: #fff !important;
-	background-image: none !important;
-	font-weight: 700 !important;
-	border: none !important;
-}
-.shopping .payhip-buy-button:hover {
-	background-color: #fff !important;
-	background-image: none !important;
-	color: #4770fd !important;
-}
-.shopping p {
-	font-size: 0.75em;
-	line-height: 1.5 em;
-}
-#portrait {
-	padding-top:1.75em;
-	max-width:700px;
+.content ul#fonts li strong {
+	color: #4770fd;
 }
 
 /* footer */
 .footer {
-	font-size: 1.25em;
-	line-height: 1.4em;
-	border-top: 1px solid #222;
-	padding-top: 1em;
-	margin-top: 3em;
-	height: 2em;
+	margin-bottom: 1em;
+	color: #666;
+	bottom: 0;
+	position: fixed;
 }
 
 /* Responsive */
-@media (max-width: 1200px) {
+@media (max-width: 700px) {
 	body {
 		width: 90%;
-	  padding: 20px;
 	}
-	.content {
-		font-size: 1.8em;
-	}
-}
-@media (max-width: 840px) {
-	.content {
-		font-size: 1.5em;
-		min-height: calc(100vh - 9em);
-	}
-}
-@media (max-width: 700px) {
-	#portrait {
-		max-width: 100%;
-	}
-	.content {
-		min-height: calc(100vh - 10em);
-	}
-	.newlinefooter {
-		display: block;
-		width: 100%;
-	}
-	.footer {
-		height: 3.5em;
-	}
-}
-@media (max-width: 500px) {
-	.newlineheader {
-		display: block;
-		width: 100%;
+	.content h1#index {
+		font-size: 26px;
+		line-height: 34px;
 	}
 }
