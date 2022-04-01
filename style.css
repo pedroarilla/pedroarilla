@@ -29,13 +29,13 @@ body {
   font-weight: 400;
 	font-size: 18px;
 	line-height: 26px;
-	color: #ddd;
-	background-color: #111;
+	color: #000;
+	background-color: #F6F6F6;
 }
 a, a:focus, a:visited, a:active {
 	text-decoration: none;
 	outline:none;
-	color: #fff;
+	color: #000;
   box-shadow: 0 1px 0 0px #4770fd;
 }
 a:hover {
@@ -79,7 +79,7 @@ img {
 }
 .content h1#index {
 	font-weight: 400;
-	color: #ddd;
+	color: #000;
 	font-size: 36px;
 	line-height: 46px;
 }
@@ -97,7 +97,7 @@ img {
 }
 .content ul#fonts li {
 	padding-bottom: 15px;
-	border-bottom: solid 2px #222;
+	border-bottom: solid 2px #D2D2D2;
 	margin-bottom: 15px;
 }
 .content ul#fonts li strong {
@@ -107,7 +107,7 @@ img {
 /* footer */
 .footer {
 	margin-bottom: 1em;
-	color: #666;
+	color: #B5B5BA;
 	bottom: 0;
 	position: fixed;
 }
