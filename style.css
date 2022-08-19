@@ -30,7 +30,7 @@ body {
 	font-size: 18px;
 	line-height: 26px;
 	color: #000;
-	background-color: #F6F6F6;
+	background-color: #FFFFFF;
 }
 a, a:focus, a:visited, a:active {
 	text-decoration: none;
@@ -75,15 +75,6 @@ img {
 .content h1 {
 	padding-bottom: 1em;
 	font-weight: 700;
-	color: #4770fd;
-}
-.content h1#index {
-	font-weight: 400;
-	color: #000;
-	font-size: 36px;
-	line-height: 46px;
-}
-.content h1#index strong {
 	color: #4770fd;
 }
 .content h2 {
