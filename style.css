@@ -67,10 +67,10 @@ a, a:focus, a:visited, a:active {
 	text-decoration: none;
 	outline:none;
 	color: #fff;
-  box-shadow: 0 2px 0 0px #fff;
+  box-shadow: 0 1px 0 0px #fff;
 }
 a:hover {
-  color: #fff;
+  color: #bbb;
 	transition: color .5s ease;
 }
 .pedro {
