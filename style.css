@@ -67,10 +67,10 @@ a, a:focus, a:visited, a:active {
 	text-decoration: none;
 	outline:none;
 	color: #fff;
-  box-shadow: 0 2px 0 0px #4770fd;
+  box-shadow: 0 2px 0 0px #fff;
 }
 a:hover {
-  color: #4770fd;
+  color: #fff;
 	transition: color .5s ease;
 }
 .pedro {
@@ -90,7 +90,7 @@ img {
   background: rgba(71,112,253,.996);
 }
 .blue {
-  color: #4770fd;
+  color: #fff;
 }
 
 /* header */
@@ -116,7 +116,7 @@ img {
   padding-top: 2em;
 	padding-bottom: 1em;
 	font-weight: 600;
-	color: #4770fd;
+	color: #fff;
   font-size: 32px;
   line-height: 42px;
 }
@@ -132,7 +132,7 @@ img {
 	margin-bottom: 15px;
 }
 .content ul#fonts li strong {
-	color: #4770fd;
+	color: #fff;
 }
 
 
@@ -148,7 +148,7 @@ img {
 	color: #B5B5BA;
 }
 .footer a:hover {
-  color: #4770fd;
+  color: #fff;
 	transition: color .4s ease;
 }
 
