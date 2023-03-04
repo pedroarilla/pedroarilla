@@ -14,12 +14,6 @@
 @font-face {
    font-family: "AtHauss";
 	 font-style: normal;
-	 font-weight: 400;
-   src: url("assets/AtHauss-Regular.woff2") format("woff2"), url("assets/AtHauss-Regular.woff") format("woff");
-}
-@font-face {
-   font-family: "AtHauss";
-	 font-style: normal;
 	 font-weight: 600;
    src: url("assets/AtHauss-Semibold.woff2") format("woff2"), url("assets/AtHauss-Semibold.woff") format("woff");
 }
@@ -89,16 +83,13 @@ img {
   color: rgba(255,255,255,.996);
   background: rgba(71,112,253,.996);
 }
-.blue {
-  color: #fff;
-}
 
 /* header */
 .header {
 	margin-top: 1em;
 	top: 0;
 	position: fixed;
-  font-weight: 400;
+  font-weight: 300;
 }
 .header ul li {
   float: left;
@@ -127,12 +118,34 @@ img {
   padding-top: 0;
   padding-bottom: 70px;
 }
-.content ul#fonts li {
-	padding-bottom: 15px;
-	margin-bottom: 15px;
-}
+
 .content ul#fonts li strong {
 	color: #fff;
+}
+.col1 {
+	width: 21%;
+	float: left;
+}
+.col2 {
+		height: 180px;
+}
+.col2 a {
+	text-decoration: none;
+	border: 0;
+	box-shadow: none;
+}
+.col2 a:hover {
+	filter: invert(32%) sepia(0%) saturate(1%) hue-rotate(356deg) brightness(98%) contrast(87%);
+}
+.col2c {
+	display: none;
+	width: 75%;
+}
+.visible {
+	display: inline-block;
+}
+#logs {
+	min-height: 450px;
 }
 
 
@@ -156,6 +169,23 @@ img {
 @media (max-width: 1260px) {
 	body {
 		width: 90%;
+	}
+	.col1 {
+		width: 100%;
+		clear: both;
+	}
+	.col2 {
+		clear: both;
+		padding-top: 30px;
+	}
+	.col2b {
+		clear: both;
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
+	.col2c {
+		clear: both;
+		margin-top: 40px;
 	}
 }
 @media (max-width: 960px) {

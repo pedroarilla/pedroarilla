@@ -3,8 +3,8 @@
 	Email: pedroarilla [at] gmail.com
 
 /* SITE */
-	Last update: 2023/01/24
-	Version: 4.0
+	Last update: 2023/03/04
+	Version: 4.1
 	Language: English
 	Doctype: HTML5 + CSS3
-	IDE: Atom + GitHub
+	IDE: Sublime Text + GitHub
