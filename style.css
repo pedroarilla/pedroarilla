@@ -127,7 +127,10 @@ img {
 	float: left;
 }
 .col2 {
-		height: 180px;
+	height: 180px;
+}
+#amsteldok {
+	height: 430px;
 }
 .col2 a {
 	text-decoration: none;
