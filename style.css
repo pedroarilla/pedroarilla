@@ -150,7 +150,35 @@ img {
 #logs {
 	min-height: 450px;
 }
-
+table {
+	border-collapse:collapse;
+	text-align: left;
+}
+table th {
+	background: #000000;
+	color: #ffffff;
+	font-weight: 600;
+}
+table td {
+	text-align:left;
+	background: #000000;
+	color: #ffffff;
+}
+table #th1 {
+	width: 130px;
+}
+table #th2 {
+	width: 260px;
+}
+table #th3 {
+	width: 100px;
+}
+table #th4 {
+	width: 80px;
+}
+table #th5 {
+	width: 80px;
+}
 
 /* footer */
 .footer {

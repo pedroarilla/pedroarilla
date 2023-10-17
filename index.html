@@ -217,7 +217,7 @@
     <h2>About</h2>
     <p>I’m Pedro Arilla (1984—), a designer with a passion for words, co-founder and Type Director of <a href="https://arillatype.studio">Arillatype.Studio®</a> where we help brands worldwide to encapsulate their voices typographically.</p>
     <p>I’ve led projects for clients such as Google, Coca-Cola, LaLiga, Unilever, Paralympics and UEFA, and designed typefaces in Latin, Arabic, Cyrillic, Greek, Thai and Japanese scripts. My job has been awarded and exhibited worldwide. I teach workshops and speak at conferences in universities and events around the globe. I’ve been jury in literary and branding awards. My texts and articles have been translated into distant languages.</p>
-    <p>I previously worked as a Creative Director at the legendary foundries Fontsmith (UK) and Monotype (USA). I graduated with Distinction in the world’s top Typeface Design Masters of Reading (UK). I’m writing a book on type evaluation; I co-organise and teach an international one-week type design workshop (<a href="https://gliglifo.com" target="_blank">Glíglifo</a>); and for 11 years I wrote one of the main blogs on typography in Spanish (Don Serifa).</p>
+    <p>I previously worked as a Creative Director at the legendary foundries Fontsmith (UK) and Monotype (USA). I graduated with Distinction in the world’s top Typeface Design Masters of Reading (UK). I’m writing a book on type evaluation; I co-organise and teach an international one-week type design workshop (Glíglifo); and for 11 years I wrote one of the main blogs on typography in Spanish (Don Serifa).</p>
     <p>I’m from Ejea de los Caballeros (Zaragoza, Spain). I’ve lived also in London (United Kingdom). Now I am based in La Cala del Moral (Málaga, Spain) because I love blue colour.</p>
     <p>I share my life with Cris — and Bunbury, our dog.</p>
   </section>
@@ -234,10 +234,11 @@
     <div class="col1">
       <a onclick="logs(1)">Reading</a><br>
       <a onclick="logs(2)">Gaming</a><br>
-      <a onclick="logs(3)">Speaking</a><br>
-      <a onclick="logs(4)">Teaching</a><br>
-      <a onclick="logs(5)">Awards</a><br>
-      <a onclick="logs(6)">Exhibitions</a>
+      <a onclick="logs(3)">Running</a><br>
+      <a onclick="logs(4)">Speaking</a><br>
+      <a onclick="logs(5)">Teaching</a><br>
+      <a onclick="logs(6)">Awards</a><br>
+      <a onclick="logs(7)">Exhibitions</a>
     </div>
     <div class="col2c" id="reading">
       <strong>Reading</strong>
@@ -587,6 +588,36 @@
         <li>🔥 <em><strong>Super Mario Odyssey</em></strong> on Nintendo Switch, 30 hours</li>
       </ul>
     </div>
+    <div class="col2c" id="running">
+      <p><strong>Running</strong></p>
+      <table>
+        <thead>
+          <tr>
+            <th id="th1">Date</th>
+            <th id="th2">Race</th>
+            <th id="th3">Distance</th>
+            <th id="th4">Time</th>
+            <th id="th5">min/km</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2022/10/23</td>
+            <td>Popular Málaga</td>
+            <td>10K</td>
+            <td>57:08</td>
+            <td>5:43</td>
+          </tr>
+          <tr>
+            <td>2022/12/31</td>
+            <td>San Silvestre Arrecife</td>
+            <td>5K</td>
+            <td>24:51</td>
+            <td>5:05</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
     <div class="col2c" id="speaking">
       <p><strong>Speaking</strong></p>
       <ul>
@@ -707,7 +738,7 @@
   </section>
   <script>
     function logs(x) {
-      var list = document.querySelectorAll("#reading, #gaming, #speaking, #teaching, #interviews, #writing, #coding, #awards, #asjury, #exhibitions")
+      var list = document.querySelectorAll("#reading, #gaming, #running, #speaking, #teaching, #awards, #exhibitions")
       for(var i = 0; i < list.length; ++i) {
         list[i].classList.remove("visible");
       }
@@ -716,12 +747,14 @@
       } else if (x == 2) {
         var element = document.querySelector("#gaming");
       } else if (x == 3) {
-        var element = document.querySelector("#speaking");
+        var element = document.querySelector("#running");
       } else if (x == 4) {
-        var element = document.querySelector("#teaching");
+        var element = document.querySelector("#speaking");
       } else if (x == 5) {
-        var element = document.querySelector("#awards");
+        var element = document.querySelector("#teaching");
       } else if (x == 6) {
+        var element = document.querySelector("#awards");
+      } else if (x == 7) {
         var element = document.querySelector("#exhibitions");
       }
       element.classList.add("visible");
