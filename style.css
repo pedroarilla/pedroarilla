@@ -179,6 +179,9 @@ table #th4 {
 table #th5 {
 	width: 80px;
 }
+#intro {
+	padding-bottom: 12em;
+}
 
 /* footer */
 .footer {
