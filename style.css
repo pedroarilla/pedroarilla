@@ -55,7 +55,7 @@ body {
   font-feature-settings: "onum";
 	line-height: 26px;
 	color: #F2F2F2;
-	background-color: #363636;
+	background-color: #222222;
 }
 a, a:focus, a:visited, a:active {
 	text-decoration: none;
@@ -153,13 +153,13 @@ table {
 	text-align: left;
 }
 table th {
-	background: #363636;
+	background: #222222;
 	color: #F2F2F2;
 	font-weight: 600;
 }
 table td {
 	text-align:left;
-	background: #363636;
+	background: #222222;
 	color: #F2F2F2;
 }
 table #th1 {
