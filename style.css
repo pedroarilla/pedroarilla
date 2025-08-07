@@ -56,12 +56,16 @@ body {
 	line-height: 26px;
 	color: #F2F2F2;
 	background-color: #222222;
+	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23ffffff00" stroke="rgba(71,112,253,.996)" stroke-width="3" width="30" height="30" viewBox="0 0 30 30"><circle cx="15" cy="15" r="10"/></svg>') 15 15, auto;
 }
+
 a, a:focus, a:visited, a:active {
 	text-decoration: none;
-	outline:none;
+	outline: none;
 	color: #F2F2F2;
-  box-shadow: 0 1px 0 0px #F2F2F2;
+	box-shadow: 0 1px 0 0px #F2F2F2;
+	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="rgba(71,112,253,0.3)" stroke="rgba(71,112,253,0.996)" stroke-width="3" width="34" height="34" viewBox="0 0 34 34"><circle cx="17" cy="17" r="14"/></svg>') 17 17, auto;
+	transition: box-shadow 0.3s ease, filter 0.3s ease;
 }
 a:hover {
   color: #bbb;
